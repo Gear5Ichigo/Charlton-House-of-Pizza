@@ -1,0 +1,29 @@
+2024-05-20T12:48:46+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_664b46aebd03dhttpcharlton-house-of-pizza-and-sea-foodlocalwp-admin","smb_name":"PROD","redirect_url":"http:\/\/charlton-house-of-pizza-and-sea-food.local\/wp-admin\/"}
+ ajax: no
+2024-05-20T12:48:47+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20240520124846D53B83287F013FE9095D,20240520124846D53B83287F013FE9095D
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 0170af22b67499fff2b507be4d8af52f8106d4aa0a7a039d73022adc66cefe9feb1993e9120669fe5061ba21f67a57466985c99f4a205cf2785b0051303a6cc81052a3b0164e383fdb5aa34ccb6a510bb6ed66e3352b6ad5adfac56770ddd87a144aeeb7df760c00cd7a3c0c6628906c9f
+x-tt-trace-id: 00-240520124846D53B83287F013FE9095D-48F41F5935AE8861-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 223
+X-Origin-Response-Time: 74,23.44.214.9
+X-Akamai-Request-ID: 702bdce0.4311920e
+Date: Mon, 20 May 2024 12:48:47 GMT
+X-Cache: TCP_MISS from a23-217-116-181.deploy.akamaitechnologies.com (AkamaiGHost/11.5.0.1-56208139) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-44-214-9.deploy.akamaitechnologies.com (AkamaiGHost/11.5.0.1-56208139) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=226, origin; dur=74
+Server-Timing: inner; dur=67
+X-Parent-Response-Time: 295,23.217.116.181
+
+{"code":0,"msg":"ok","data":{"app_id":"7371062933045903376","app_secret":"38f0abb18bb49f91dd68ce1f885d2c9ebc9a2448","external_data_key":"620ae432-2e39-4180-b1e8-466b326a99c9","redirect_uri":"http:\/\/charlton-house-of-pizza-and-sea-food.local\/wp-admin\/"}}
+
