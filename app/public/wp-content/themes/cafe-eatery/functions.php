@@ -38,10 +38,10 @@ endif;
 add_action( 'wp_enqueue_scripts', 'cafe_eatery_styles' );
 
 /* Theme Credit link */
-define('CAFE_EATERY_BUY_NOW',__('https://www.cretathemes.com/gutenberg/cafeteria-wordpress-theme/','cafe-eatery'));
-define('CAFE_EATERY_PRO_DEMO',__('https://www.cretathemes.com/preview/cafe-eatery/','cafe-eatery'));
-define('CAFE_EATERY_THEME_DOC',__('https://www.cretathemes.com/free-guide/cafe-eatery/','cafe-eatery'));
-define('CAFE_EATERY_PRO_THEME_DOC',__('https://www.cretathemes.com/pro-guide/cafe-eatery/','cafe-eatery'));
+define('CAFE_EATERY_BUY_NOW',__('https://www.cretathemes.com/products/cafeteria-wordpress-theme/','cafe-eatery'));
+define('CAFE_EATERY_PRO_DEMO',__('https://pattern.cretathemes.com/cafe-eatery/','cafe-eatery'));
+define('CAFE_EATERY_THEME_DOC',__('https://pattern.cretathemes.com/free-guide/cafe-eatery/','cafe-eatery'));
+define('CAFE_EATERY_PRO_THEME_DOC',__('https://pattern.cretathemes.com/pro-guide/cafe-eatery/','cafe-eatery'));
 define('CAFE_EATERY_SUPPORT',__('https://wordpress.org/support/theme/cafe-eatery','cafe-eatery'));
 define('CAFE_EATERY_REVIEW',__('https://wordpress.org/support/theme/cafe-eatery/reviews/#new-post','cafe-eatery'));
 

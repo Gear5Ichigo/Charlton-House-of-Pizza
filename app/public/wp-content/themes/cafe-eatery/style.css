@@ -1,12 +1,12 @@
 /*
 Theme Name: Cafe Eatery
-Theme URI: https://www.cretathemes.com/gutenberg/free-cafe-wordpress-theme/
+Theme URI: https://www.cretathemes.com/products/free-cafe-wordpress-theme/
 Author: Creta Themes
 Author URI: https://cretathemes.com/
 Description: Cafe Eatery is a charming and versatile WordPress theme crafted specifically for cafes, bistros, restaurants, and eateries. Designed to showcase the unique ambiance and offerings of dining establishments, this theme seamlessly blends functionality with aesthetics to create an inviting online presence. At the heart of the Cafe Eatery theme is its visually appealing design. With clean lines, elegant typography, and mouthwatering imagery, the theme captures the essence of culinary delight, enticing visitors to explore further. Whether showcasing delectable dishes, cozy interiors, or friendly staff, the theme sets the stage for a memorable dining experience right from the homepage. Functionality is another key aspect of the Cafe Eatery WordPress theme. The theme offers various customization options, allowing users to personalize their websites to reflect their brand identity and style effortlessly. From customizable menus and reservation forms to gallery sections and contact pages, users have the flexibility to tailor their websites to meet their specific needs and preferences. Furthermore, the Cafe Eatery theme prioritizes user experience, ensuring that websites built using this template are intuitive and easy to navigate. With a responsive design, the theme adapts seamlessly to various devices and screen sizes, providing a consistent and enjoyable browsing experience for visitors whether they're on desktops, laptops, tablets, or smartphones.
 Tested up to: 6.4
 Requires PHP: 5.6
-Version: 1.0.3
+Version: 1.0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: cafe-eatery
@@ -29,6 +29,10 @@ a {
 
 a {
   text-decoration: underline; }
+
+.wp-block-button__link{
+  text-decoration: none;
+}
 
 .wp-block-navigation:where(:not([class*="has-text-decoration"])) a {
   text-decoration: none;
@@ -850,6 +854,10 @@ ins,
 .wp-block-post-featured-image img {
   transition: all 0.5s ease; }
 
+.wp-block-image img {
+  vertical-align: middle;
+}
+
 pre {
   background-color: var(--wp--preset--color--secondary-bg-color); }
 
@@ -923,8 +931,7 @@ body.page-template-blank .wp-site-blocks main {
   margin-bottom: 0;
   font-size: clamp(20px, 6vw, 32px); }
   .wp-block-site-title a {
-    text-decoration: none;
-    text-transform: uppercase; }
+    text-decoration: none;}
 
 .site-title-col .wp-block-site-tagline {
   margin: 0; }
@@ -2062,9 +2069,6 @@ button.search-controller:hover {
   filter: blur(0);
   transform: scale(1.05); }
 
-.wp-block-image img {
-  vertical-align: middle;
-}
 .wp-block-group.entry-meta {
   gap: 14px; }
 
@@ -3400,6 +3404,15 @@ body:not(.home) .wp-block-post-template > li{
   }
   .header-cart .wc-block-mini-cart__icon circle,.header-cart .wc-block-mini-cart__icon path{
     fill: var(--wp--preset--color--foreground) !important;
+  }
+}
+@media screen and (max-width:475px){
+  .rights-box{
+    display: block !important;
+    text-align: center;
+  }
+  .rights-box nav{
+    justify-content: center !important;
   }
 }
 @media screen and (max-width:425px){

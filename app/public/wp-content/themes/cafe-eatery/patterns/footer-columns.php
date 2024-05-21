@@ -91,7 +91,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"foreground","style":{"border":{"radius":{"topRight":"0px","bottomLeft":"0px","topLeft":"20px","bottomRight":"20px"}},"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"className":"buy-now-btn"} -->
-<div class="wp-block-button buy-now-btn"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background has-link-color wp-element-button" href="https://www.cretathemes.com/gutenberg/cafeteria-wordpress-theme/" target="_blank" rel="noreferrer noopener" style="border-top-left-radius:20px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:20px;padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><?php esc_html_e('Buy Now','cafe-eatery'); ?></a></div>
+<div class="wp-block-button buy-now-btn"><a class="wp-block-button__link has-foreground-color has-background-background-color has-text-color has-background has-link-color wp-element-button" href="https://www.cretathemes.com/products/cafeteria-wordpress-theme/" target="_blank" rel="noreferrer noopener" style="border-top-left-radius:20px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:20px;padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><?php esc_html_e('Buy Now','cafe-eatery'); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

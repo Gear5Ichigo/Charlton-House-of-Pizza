@@ -37,6 +37,9 @@ Cafe Eatery is a charming and versatile WordPress theme crafted specifically for
 * Added editor css.
 * Updated inner files.
 
+= 1.0.4 (Released: May 16, 2024) =
+* Changed Links.
+
 == Copyright ==
 
 Cafe Eatery WordPress Theme, 2012-2024

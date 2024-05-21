@@ -83,7 +83,7 @@ final class Cafe_Eatery_Customize {
 					'priority'   => 9,
 					'title'    => esc_html__( 'Cafe Eatery Pro', 'cafe-eatery' ),
 					'pro_text' => esc_html__( 'GET PRO', 'cafe-eatery' ),
-					'pro_url'  => esc_url( 'https://www.cretathemes.com/gutenberg/cafeteria-wordpress-theme/', 'cafe-eatery' ),
+					'pro_url'  => esc_url( 'https://www.cretathemes.com/products/cafeteria-wordpress-theme/', 'cafe-eatery' ),
 				)
 			)
 		);
