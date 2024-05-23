@@ -1,4 +1,1 @@
-[22-May-2024 16:30:07 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Ne.N.Reh\Local Sites\charlton-house-of-pizza\app\public\wp-includes\class-wp-customize-widgets.php on line 905
-[22-May-2024 16:50:22 UTC] PHP Warning:  Undefined property: stdClass::$id in C:\Users\Ne.N.Reh\Local Sites\charlton-house-of-pizza\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php on line 669
-[22-May-2024 16:50:22 UTC] PHP Warning:  Undefined property: stdClass::$post_parent in C:\Users\Ne.N.Reh\Local Sites\charlton-house-of-pizza\app\public\wp-includes\rest-api\endpoints\class-wp-rest-posts-controller.php on line 672
-[22-May-2024 16:52:24 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Ne.N.Reh\Local Sites\charlton-house-of-pizza\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[23-May-2024 15:06:25 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
